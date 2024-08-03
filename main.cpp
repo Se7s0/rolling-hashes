@@ -34,8 +34,8 @@ using namespace std;
 
 void main() {
 
-	string s = "abc";
-	string t = "abc";
+	string s = "abccc";
+	string t = "abddd";
 	cout << s.compare(t) << endl;
 
 }
