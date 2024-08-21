@@ -54,8 +54,8 @@ void main() {
 }
 
 int karpRabin(string s, string t) {
-	rollingHash sHash(70, 7919);
-	rollingHash tHash(70, 7919);
+	rollingHash sHash(71, 7919);
+	rollingHash tHash(71, 7919);
 
 	for (int i = 0; i < s.length(); i++) {
 		sHash.append(s[i]);
